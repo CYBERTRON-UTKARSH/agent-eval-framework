@@ -1,0 +1,31 @@
+# Getting Started with Agent Eval Framework
+
+This guide will walk you through setting up the **LLM Agent Evaluation & Guardrail Pipeline** on your local machine using the files exported from Google Colab.
+
+---
+
+## 1. Export Files from Google Colab
+
+Before running the test suite locally on your desktop, ensure you have downloaded the two core source files from your Google Colab environment:
+
+1. Open your Google Colab notebook (`llm_agent_eval.ipynb`).
+2. Locate the generated files in the Colab file explorer on the left sidebar:
+   - `src/agent.py`
+   - `tests/test_evals.py`
+3. Right-click each file and select **Download** to save them to your local desktop computer.
+
+---
+
+## 2. Directory Setup
+
+Organize your local directory (`agent-eval-framework`) with the downloaded files as follows:
+
+```text
+agent-eval-framework/
+├── src/
+│   └── agent.py          # Downloaded from Colab
+├── tests/
+│   └── test_evals.py     # Downloaded from Colab
+├── requirements.txt
+├── README.md
+└── GET_STARTED.md
